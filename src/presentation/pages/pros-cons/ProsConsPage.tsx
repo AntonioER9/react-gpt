@@ -28,9 +28,7 @@ export const ProsConsPage = () => {
 
     if (!ok) return;
 
-
     setMessages((prev) => [...prev, { text: content, isGpt: true }]);
-
 
   }
 
